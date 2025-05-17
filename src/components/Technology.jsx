@@ -7,6 +7,8 @@ import { DiJava } from "react-icons/di";
 import { FaNodeJs } from 'react-icons/fa'
 import { DiPython } from "react-icons/di";
 import { motion } from 'framer-motion'
+import { TbCloudComputing } from "react-icons/tb";
+import { FaSalesforce } from "react-icons/fa";
 
 
 const iconVariants = (duration) => ({
@@ -90,6 +92,23 @@ const Technology = () => {
                     animate='animate'
                     className='rounded-2xl border-4 border-neutral-800 p-4'>
                     < DiPython className='text-7xl text-sky-700' />
+                </motion.div>
+
+                   <motion.div
+                    variants={iconVariants(4)}
+                    initial='initial'
+                    animate='animate'
+                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    < TbCloudComputing
+                     className='text-7xl text-sky-700' />
+                </motion.div>
+                   <motion.div
+                    variants={iconVariants(4)}
+                    initial='initial'
+                    animate='animate'
+                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    < FaSalesforce
+                     className='text-7xl text-sky-700' />
                 </motion.div>
             </motion.div>
         </div>
