@@ -1,6 +1,7 @@
 import React from 'react'
 import { CONTACT } from '../constants'
 import { motion } from 'framer-motion'
+import { FaLinkedin, FaGithub, FaInstagram, FaSquareXTwitter } from 'react-icons/fa6'
 
 const Contact = () => {
     return (
@@ -24,7 +25,28 @@ const Contact = () => {
                     className='my-4'>{CONTACT.phoneNo}</motion.p>
                 <a href='#' className='border-b'>{CONTACT.email}</a>
             </div>
+
+            
+            {/* Social Media Icons */}
+            <div className='mt-12 flex items-center justify-center gap-6 text-2xl'>
+                <a href='https://www.linkedin.com/in/khushbu-kumari-b727b525a/' target='_blank' rel='noopener noreferrer'>
+                    <FaLinkedin className='hover:text-blue-700' />
+                </a>
+                <a href='https://github.com/Khushbu8130' target='_blank' rel='noopener noreferrer'>
+                    <FaGithub className='hover:text-gray-700' />
+                </a>
+                <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'>
+                    <FaInstagram className='hover:text-pink-600' />
+                </a>
+                <a href='https://twitter.com/' target='_blank' rel='noopener noreferrer'>
+                    <FaSquareXTwitter className='hover:text-blue-500' />
+                </a>
+            </div>
+            
         </div>
+
+
+
     )
 }
 
