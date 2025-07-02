@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className='mb-20 flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center '>
 
-        <h1><b className="text-4xl md:text-5xl font-bold font-[cursive] text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 tracking-wide drop-shadow-md">KK Devs</b></h1>
+        <h1><b className="text-4xl md:text-5xl font-bold font-[cursive] text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 tracking-wide drop-shadow-md">KK Coder</b></h1>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
         <a href='https://www.linkedin.com/in/khushbu-kumari-b727b525a/' target='_blank' rel='noopener noreferrer'>
