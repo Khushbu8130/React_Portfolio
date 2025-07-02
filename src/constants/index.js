@@ -94,7 +94,6 @@ export const CERTIFICATIONS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Jharkhand, India, JH 10153 ",
-  phoneNo: "+91 4555 666 00 ",
+  
   email: "kumarikhushbu7199@gmail.com",
 };
