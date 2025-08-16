@@ -12,12 +12,12 @@ export const ABOUT_TEXT = `Hello! I'm Khushbu Kumari, a passionate and dedicated
 
 export const EXPERIENCES = [
   {
-    year: "May 2024-June 2024",
+    year: "June 2025-July 2025",
     role: "Software Developer Intern",
     company: "SIKHARTHY INFOTECH PVT.LTD.",
     description: `Collaborated with the team to design responsive UI components and integrate backend APIs. Improved website performance by optimizing database queries and application logic. Gained hands-on experience in full-stack development`,
     technologies: ["HTML", "CSS", "Javascript","React.js","Node.js","Express.js", "mongoDB"],
-    roleLink: "https://drive.google.com/file/d/10WRcwr4vqEWrh0yB5SQ_TJDpAKnlFh0K/view",
+    roleLink: "https://drive.google.com/file/d/1SYEJZlKPkEhjvsgVZ9ELstoeEq9wDKro/view?usp=sharing",
     companyLink: "https://siplhub.com/",
   },
   {
