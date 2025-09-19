@@ -20,15 +20,7 @@ export const EXPERIENCES = [
     roleLink: "https://drive.google.com/file/d/1SYEJZlKPkEhjvsgVZ9ELstoeEq9wDKro/view?usp=sharing",
     companyLink: "https://siplhub.com/",
   },
-  {
-    year: "March 2024-April 2024",
-    role: "JAVA Developer",
-    company: "Codsoft",
-    description: `worked on the projects ATM interface, number gaming and student grade calculator.`,
-    technologies: ["JAVA"],
-    roleLink: "https://drive.google.com/file/d/1O352zwmG4c4tRxkpf_KswjLJ7brUCYKO/view",
-    companyLink: "https://www.codsoft.in/",
-  },
+ 
 
 ];
 
